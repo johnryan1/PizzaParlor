@@ -9,10 +9,19 @@ File:styles.css
  */
 header{
  width: 100%;
+ background-image: url("gond.png");
+ background-size: 100%;
+ background-repeat: no-repeat;
+ background-color: black;
 }
 header h1 {
   font-family: Brush Script MT, Brush Script Std, cursive;
-  background-color: rgb(210,180,140);
+  line-height: 2;
+  background-color: rgba(192,192,192,0.5);
+  color:black;
+
+  text-align: center;
+  font-size: 300%;
 }
 body {
   background: lightgrey;
@@ -35,6 +44,8 @@ a {
   line-height: 4;
   text-align: center;
   font-size: 20px;
+  border-bottom-style: groove;
+  border-color: darkgrey;
 }
 a:hover{
  background-color: white;
@@ -94,13 +105,45 @@ article {
 .smalltxt{
   display: none;
 }
+li {
+  list-style: none;
 
+}
+li img {
+  width: 26px;
+}
+li a, li a:hover {
+  background-color: inherit;
+}
+.containerj {
+  display: flex;
+  flex-direction: row;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
+.col1{
+  display: flex;
+  flex-direction: column;
+}
+.col2{
+  display: flex;
+  flex-direction: column;
+}
+.social {
+  display: flex;
+}
 @media screen and (min-width:568px) {
   .mainflex{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
+  }
+  a {
+    border-style:none;
   }
   .pizzaflex{
     display: flex;
@@ -125,5 +168,8 @@ article {
 
   }
 
+
+}
+@media screen and (min-width:578px)  {
 
 }

@@ -12,6 +12,7 @@ File:order.html
   </head>
   <body>
     <header>
+      <h1>Cheech's Pizza Parlor</h1>
       <nav class="mainflex">
         <a href="index.html">Home</a>
         <a href="order.html">Order Online</a>
@@ -19,5 +20,52 @@ File:order.html
         <a href="location.html">Our Location</a>
       </nav>
     </header>
+    <h1 class = "page">Order Online</h1>
+    <article class="container">
+      <div class="col1">
+        <form class="info" method="get">
+          <label for="FirstName">
+            <input type="text" name="FirstName" id="FirstName" required placeholder="First Name"/>
+          </label>
+          <label for="LastName">
+            <input type="text" name="LastName" id="LastName" required placeholder="Last Name"/>
+
+          </label>
+          <label for="Phone">
+            <input type="tel" name="Phone" id="Phone" required placeholder="Phone Number"/>
+
+          </label>
+          <label for="Pizza">
+            <select name="Pizza" id="Pizza">
+              <option value="cheese">Cheese Pizza</option>
+              <option value="Hawaiian">Hawaiian Pizza</option>
+              <option value="Breakfast">Breakfast Pizza</option>
+              <option value="Meat">Meat Lover's Pizza</option>
+              <option value="Pepperoni">Pepperoni Pizza</option>
+              <option value="Supreme">Supreme Pizza</option>
+            </select>
+          </label>
+          <label for="PizzaNum">
+            <input type="number" name="PizzaNum" id="PizzaNum" required placeholder="Number of Pizzas"/>
+          </label>
+          <input type="submit" value="Submit">
+
+        </form>
+      </div>
+      <div class="col2">
+        <div class ="review">
+          <img src="1star.jpeg" alt="">
+          <p>Went inside due to drive thru line being backed up in the road.
+            Had 1 person in front of me in line. Waited 10 mins to order and then had to wait 10 mins just for 1 pizza.
+            By far worst experience ever with 5 people working</p><!-- REAL review for the place I work except I changed it to be about pizza -->
+        </div>
+        <ul class = social>
+          <li> <a href="facebook.com"> <img src="FB.png" alt=""> </a> </li>
+          <li> <a href="twitter.com"> <img src="tw.png" alt=""> </a> </li>
+          <li> <a href="instagram.com"><img src="in.png" alt=""> </a> </li>
+          <li> <a href="snapchat.com"><img src="sc.png" alt=""></a> </li>
+        </ul>
+      </div>
+    </article>
   </body>
 </html>
