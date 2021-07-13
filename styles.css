@@ -77,7 +77,7 @@ article {
 .page{
   display: block;
   margin: auto;
-  background: maroon;
+  background-image: radial-gradient(maroon, black);
   color: white;
   line-height: 3;
   text-align: center;
@@ -113,6 +113,7 @@ li img {
   width: 50px;
   margin: auto;
   display: block;
+
 }
 li a, li a:hover {
   background-color: inherit;
@@ -131,6 +132,7 @@ select {
 }
 .review img {
   width: 100px;
+
 }
 .review p {
   margin: 5px;
@@ -159,6 +161,10 @@ select{
   flex-direction: column;
   margin: 20px;
 }
+.col1 h3{
+  text-align: center;
+  text-decoration: underline;
+}
 .col2{
   display: flex;
   flex-direction: column;
@@ -168,7 +174,7 @@ select{
 .social {
   display: flex;
   justify-content: space-evenly;
-  
+
 
 }
 .social li{
