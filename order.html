@@ -24,6 +24,7 @@ File:order.html
     <article class="container">
       <div class="col1">
         <form class="info" method="get">
+          <h3>Order Info</h3>
           <label for="FirstName">
             <input type="text" name="FirstName" id="FirstName" required placeholder="First Name"/>
           </label>
@@ -35,6 +36,10 @@ File:order.html
             <input type="tel" name="Phone" id="Phone" required placeholder="Phone Number"/>
 
           </label>
+
+          <label for="PizzaNum">
+            <input type="number" name="PizzaNum" id="PizzaNum" required placeholder="Number of Pizzas"/>
+          </label>
           <label for="Pizza">
             <select name="Pizza" id="Pizza">
               <option value="cheese">Cheese Pizza</option>
@@ -45,15 +50,14 @@ File:order.html
               <option value="Supreme">Supreme Pizza</option>
             </select>
           </label>
-          <label for="PizzaNum">
-            <input type="number" name="PizzaNum" id="PizzaNum" required placeholder="Number of Pizzas"/>
-          </label>
           <input type="submit" value="Submit">
 
         </form>
       </div>
       <div class="col2">
+        <h3>Critical Acclaim!</h3>
         <div class ="review">
+
           <img src="1star.jpeg" alt="">
           <p>Went inside due to drive thru line being backed up in the road.
             Had 1 person in front of me in line. Waited 10 mins to order and then had to wait 10 mins just for 1 pizza.
@@ -63,9 +67,12 @@ File:order.html
           <li> <a href="facebook.com"> <img src="FB.png" alt=""> </a> </li>
           <li> <a href="twitter.com"> <img src="tw.png" alt=""> </a> </li>
           <li> <a href="instagram.com"><img src="in.png" alt=""> </a> </li>
-          <li> <a href="snapchat.com"><img src="sc.png" alt=""></a> </li>
+          <li class="toosmall"> <a href="snapchat.com"><img src="sc.png" alt=""></a> </li>
         </ul>
       </div>
     </article>
+    <footer>
+      <p>&copy; Cheech's LLC 2021</p>
+    </footer>
   </body>
 </html>
